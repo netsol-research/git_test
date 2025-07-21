@@ -1,13 +1,16 @@
-def add_numbers(x,y,z):
- return x+y+z
+from typing import List
+def add_numbers(numbers: List):
+ return sum(numbers)
+ 
 
 
 def sort_list(unsorted_list:List):
- List.sort()
+ return sorted(unsorted_list)
 
 
-if __name__ == __main__:
- print(add_numbers(2,3,4))
- print(sort_list([2,3,5.2,1])
+if __name__ == "__main__":
+ numbers_list = [2,3,1,4]
+ print(add_numbers(numbers_list))
+ print(sort_list(numbers_list))
 
  
