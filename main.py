@@ -1,13 +1,13 @@
-def add_numbers(x,y,z):
- return x+y+z
+
+n = int(input("How many numbers? "))
 
 
-def sort_list(unsorted_list:List):
- List.sort()
+numbers = []
+for i in range(n):
+    num = float(input(f"Enter number {i+1}: "))
+    numbers.append(num)
 
 
-if __name__ == __main__:
- print(add_numbers(2,3,4))
- print(sort_list([2,3,5.2,1])
 
- 
+total = sum(numbers)
+print("The sum is:", total)
