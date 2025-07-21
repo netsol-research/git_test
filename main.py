@@ -1,6 +1,6 @@
-def add_numbers(x,y):
- return x+y
-
+def add_numbers(numbers: List):
+    return sum(numbers)
+# Fixed this error
 
 def sort_list(unsorted_list:List):
  List.sort()
