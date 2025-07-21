@@ -1,0 +1,15 @@
+from typing import List
+# using list to add numbers previously only index 1 and 2 were being added 
+def add_numbers(numbers:List[float])-> float:
+    return sum(numbers)
+    
+def sort_list(unsorted_list:List[float])->List[float]:
+#unsorted list is being sorted not the List since it is not containing all the numbers 
+    unsorted_list.sort()
+    return unsorted_list
+
+if __name__ == "__main__":
+    num = [2, 3, 5.2, 1]
+    print(add_numbers(num))
+    print(sort_list(num))
+
